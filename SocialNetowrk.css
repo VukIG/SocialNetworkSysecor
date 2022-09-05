@@ -1,0 +1,104 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.wallpaperscraft.com/image/single/code_programming_monitor_209719_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.jesam{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.logoislika{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10pt;
+    font-style: bold;
+}
+.logoislika img{
+    height: 150px;
+}
+.main-wrapper{
+    text-align: center;
+}
+input{
+    color: black;
+    margin: 30px;
+    padding: 10px;
+}
+.e{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    align-items: center;
+}
+.main-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-wrapper button{
+    transition: 0.4s;
+}
+.custom-modal{
+    display: none;
+    background-color: black;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 1000px 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.custom-modal form{
+    margin: 50px;
+}
+.custom-modal form button{
+    margin-left: 30%;
+    border: 1px solid white;
+}
+
+button{
+    background: transparent;
+    padding: 5px;
+    border: 1px solid white;
+    transition: 0.4;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.no-acc-register{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.no-acc-register h6{
+    padding: 5px;
+}
+.no-acc-register button{
+    transition: 0.4s;
+}
+.custom-modal button{
+    transition: 0.4s;
+    border: transparent;
+}

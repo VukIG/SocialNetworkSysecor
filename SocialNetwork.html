@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SocialNetwork.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>socialnetwrong</title>
+</head>
+<body>
+    <div class="jesam">
+        <div class="logoislika">
+            <img src="https://i.pinimg.com/originals/17/2e/05/172e05d2a862ff36a5d17d3ed7c978d2.png" alt="">
+            <h1>Drustvena mreza namjenjena etickim hakerima</h1>
+        </div>
+        <div class="main-wrapper">
+            <form id="loginForm">
+                <h1>Login:</h1>
+                <br>
+                <div class="e">
+                    <label>Email:</label>
+                    <input type="email" name="email" id="login_email" placeholder="jovan@gmail.com">
+                </div>
+                <div class="e">
+                    <label>Lozinka:</label>
+                    <input type="password" name="Lozinka" id="login_lozinka" placeholder="******">
+                </div>
+                <button type="submit">Uloguj se</button>
+            </form>
+        </div>
+        <div class="no-acc-register">
+            <h6>Nemas nalog?</h6>
+            <button onclick="jova()">Registruj se</button>
+        </div>
+        <div class="custom-modal">
+            <button onclick="izadji()">X</button>
+            <form id="registrationForm">
+                
+                <div class="e">
+                    <label for="korisnicko_ime">Korisnicko ime:</label>
+                    <input type="text" id="korisnicko_ime" name="korisnicko_ime" placeholder="jovanzmaj69">
+                </div>
+                <div class="e">
+                    <label for="email">Email:</label>
+                    <input type"text" id="email" name="register_email" placeholder="jovan@gmail.com">
+                </div>
+                <div class="e">
+                    <label for="lozinka">Lozinka:</label>
+                    <input type="password" name="register_lozinka" id="lozinka" placeholder="******">
+                </div>
+                <div class="e">
+                    <label for="lozinka">Ponovi lozinku:</label>
+                    <input type="password" name="ponovi_lozinku" id="lozinka" placeholder="******">
+                </div>
+                <button type="submit" id="cancelnoacc">Registruj se</button>
+            </form>
+        </div>
+    </div>
+    <script src="validator.js"></script>
+    <script src="Session.js"></script>
+    <script src="User.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
